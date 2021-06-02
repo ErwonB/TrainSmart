@@ -1,0 +1,9 @@
+query Exo {
+  exo {
+    id
+    exoId
+    exoDesc
+    bodyPart
+    langCd
+  }
+}

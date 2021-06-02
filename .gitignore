@@ -1,0 +1,6 @@
+/web/node_modules
+/web/.env.local
+/server/node_modules
+/server/.env
+/server/.env.production
+/server/dist

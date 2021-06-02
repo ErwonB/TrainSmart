@@ -1,0 +1,5 @@
+mutation ChangeProfile($options : ProfileInput!) {
+  changeProfile(options : $options) {
+    ...RegularUserResponse
+  }
+}

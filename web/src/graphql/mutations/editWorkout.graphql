@@ -1,0 +1,5 @@
+mutation EditWorkout($id: Int!, $options : WorkoutInput!) {
+  editWorkout(id: $id, options : $options) {
+    ...RegularWorkoutResponse
+  }
+}

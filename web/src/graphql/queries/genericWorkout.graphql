@@ -1,0 +1,19 @@
+query GenericWorkout($genericWorkoutId: Int!) {
+  genericWorkout(genericWorkoutId: $genericWorkoutId) {
+    id
+    trainingType
+    trainingFrequency
+    genericWorkoutDetails {
+      id
+      exoId
+      exoDetail {
+        sets
+        feedback
+        reps
+        grade
+        rest
+        weight
+      }
+    }
+  }
+}

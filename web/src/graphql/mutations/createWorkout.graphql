@@ -1,0 +1,5 @@
+mutation CreateWorkout($options : WorkoutInput!) {
+  createWorkout(options : $options) {
+    ...RegularWorkoutResponse
+  }
+}

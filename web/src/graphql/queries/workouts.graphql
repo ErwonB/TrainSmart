@@ -1,0 +1,29 @@
+query Workouts($sens: Int, $cursor: String) {
+  workouts(sens: $sens, cursor: $cursor) {
+    hasMorePrev
+    hasMoreNext
+    weekNb
+    nextCursorValue
+    workouts {
+        id
+        workoutDt
+        createdAt
+        updatedAt
+        workoutType
+        workoutDesc
+        weekNb
+        workoutDetails {
+          id
+          exoId
+          exoDetail {
+            sets
+            feedback
+            reps
+            grade
+            rest
+            weight
+          }
+        }
+    }
+  }
+}

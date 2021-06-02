@@ -1,0 +1,21 @@
+query GenericWorkouts {
+  genericWorkouts {
+    id
+    trainingType
+    trainingFrequency
+    genericWorkoutDetails {
+      id
+      workoutType
+      exoId
+      sessionNb
+      exoDetail {
+        sets
+        feedback
+        reps
+        grade
+        rest
+        weight
+      }
+    }
+  }
+}

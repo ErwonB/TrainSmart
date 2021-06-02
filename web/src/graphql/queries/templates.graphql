@@ -1,0 +1,19 @@
+query Templates {
+  templates {
+    id
+    templateType
+    name
+    templateDetails {
+      id
+      exoId
+      exoDetail {
+        sets
+        feedback
+        reps
+        grade
+        rest
+        weight
+      }
+    }
+  }
+}

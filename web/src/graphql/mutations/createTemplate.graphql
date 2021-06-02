@@ -1,0 +1,5 @@
+mutation CreateTemplate($options : TemplateInput!) {
+  createTemplate(options : $options) {
+    ...RegularTemplateResponse
+  }
+}

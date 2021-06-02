@@ -1,0 +1,5 @@
+mutation EditTemplate($id: Int!, $options : TemplateInput!) {
+  editTemplate(id: $id, options : $options) {
+    ...RegularTemplateResponse
+  }
+}

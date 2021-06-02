@@ -1,0 +1,21 @@
+fragment RegularWorkout on Workout {
+	id
+	workoutDt
+	createdAt
+	updatedAt
+	workoutType
+	workoutDesc
+	weekNb
+	workoutDetails {
+	  id
+	  exoId
+	  exoDetail {
+		sets
+		feedback
+		reps
+		grade
+		rest
+		weight
+	  }
+	}
+}

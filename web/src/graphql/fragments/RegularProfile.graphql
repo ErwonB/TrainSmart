@@ -1,0 +1,6 @@
+fragment RegularProfile on Profile {
+  lang_cd
+  sex
+  trainingFrequency
+  trainingType
+}

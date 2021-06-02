@@ -1,0 +1,17 @@
+fragment RegularTemplate on Template {
+	id
+	templateType
+	name
+	templateDetails {
+	  id
+	  exoId
+	  exoDetail {
+		sets
+		feedback
+		reps
+		grade
+		rest
+		weight
+	  }
+	}
+}
